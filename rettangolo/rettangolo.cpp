@@ -62,6 +62,8 @@ class Rettangolo
         cout<<"diagonale "<<calcolaDiagonale()<<endl;
     }
 };
+
+
 int main()
 {
     Rettangolo r1;

@@ -25,12 +25,12 @@ Contapassi:: ~Contapassi()
     cout<<"hai utilizzato il distruttore"<<endl;
 }
 
-int Contapassi:: getValore()
+int Contapassi:: getValore()   
 {
     return valore;
 }
 
-void Contapassi:: setValore(int x)
+void Contapassi:: setValore(int x)   
 {
     valore=x;
 }
@@ -62,5 +62,5 @@ void Contapassi:: dec()
 
 void Contapassi:: stampa()
 {
-    cout<<"valore:"<<valore<<endl<<"passo:"<<passo<<endl;
+    cout<<"valore: "<<valore<<endl<<"passo: "<<passo<<endl;
 }

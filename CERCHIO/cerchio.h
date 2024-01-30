@@ -5,19 +5,19 @@
 class Cerchio
 {
     private:
-    int raggio;
+    double raggio;
 
     public:
 
     Cerchio();
-    Cerchio(int);
+    Cerchio(double);
     ~Cerchio();
 
-    void setRaggio(int);
-    int getRaggio();
-    int calcolaArea();
-    int calcolaDiametro();
-    int calcolaCirconferenza();
+    void setRaggio(double);
+    double getRaggio();
+    double calcolaArea();
+    double calcolaDiametro();
+    double calcolaCirconferenza();
     void stampa();
 
 };

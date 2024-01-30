@@ -14,10 +14,10 @@ class Triangolo
     Triangolo(int,int);
     ~Triangolo(); //distruttore
 
-    int setC1(int);
-    void getC1();
-    int setC2(int);
-    void getC2();
+    void setC1(int);
+    int getC1();
+    void setC2(int);
+    int getC2();
     int calcolaArea();
     int calcolaPerimetro();
     int calcolaIpo();

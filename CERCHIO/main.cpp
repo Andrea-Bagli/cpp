@@ -9,7 +9,7 @@ int main()
     Cerchio c1;
     Cerchio c2(10);
 
-    c1.setRaggio(5)
+    c1.setRaggio(5);
     c1.stampa();
     
 

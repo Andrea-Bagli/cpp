@@ -9,7 +9,7 @@ Cerchio:: Cerchio()
     raggio=5;
 }
 
-Cerchio:: Cerchio(int x)
+Cerchio:: Cerchio(double x)
 {
     raggio=x;
 }
@@ -19,7 +19,7 @@ Cerchio:: ~Cerchio()
     cout<<"hai usato il distruttore"<<endl;
 }
 
-void Cerchio:: setRaggio(int x)
+void Cerchio:: setRaggio(double x)
 {
     raggio=x;
 }
@@ -44,8 +44,8 @@ double Cerchio:: calcolaCirconferenza()
     return calcolaDiametro()*PIGRECO;
 }
 
-double Cerchio:: stampa()
+void Cerchio:: stampa()
 {
-    cout<<"raggio"<<raggio<<"area:"<<calcolaArea()<<endl<<"diametro:"<<calcolaDiametro()<<endl<<"circonferenza:"<<calcolaCirconferenza();
+    cout<<"raggio: "<<raggio<<endl<<"area: "<<calcolaArea()<<endl<<"diametro: "<<calcolaDiametro()<<endl<<"circonferenza: "<<calcolaCirconferenza()<<endl;
 }
 
